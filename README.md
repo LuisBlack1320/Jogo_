@@ -1,3 +1,4 @@
 # Jogo_da_Velha
- ## primeira linha
+
+Jogo simples Feito com JavaScript puro.
  
