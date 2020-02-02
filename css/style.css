@@ -1,0 +1,28 @@
+body {
+  background-color: #587fa7;
+}
+
+.game { /*  Formata a DIV com classe .game  */
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #34495e;
+  color: #fff;
+  border: 6px solid #2c3e50;
+  border-radius: 10px;
+
+  display: grid; /* Modo grid*/
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr); /* Grid 3 linhas e 3 colunas*/
+}
+
+.game > div { /* Formata as DIVs, geradas pelo JS dentro da DIV principal com a classe: .game */
+  border: 6px solid #2c3e50;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+
+  display: flex;/* Display Modo Flex, alinha um ao lado do outro e o GRID mantem em 3 colunas*/
+  justify-content: center;
+  align-items: center;
+}
